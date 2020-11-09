@@ -8,7 +8,7 @@
         /// <param name="array">Массив с числами.</param>
         /// <param name="num">Число которое нужно найти.</param>
         /// <returns>Возвращает это число, если оно присутствует в массиве, иначе вернёт 0</returns>
-        public int Binary(int[] array, int num)
+        public int? Binary(int[] array, int num)
         {
             int low = 0;
             int high = array.Length - 1;
@@ -30,7 +30,7 @@
                 }
             }
 
-            return 0;
+            return null;
         }
     }
 }
