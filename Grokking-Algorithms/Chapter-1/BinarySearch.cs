@@ -11,14 +11,14 @@
         public int Binary(int[] array, int num)
         {
             int low = 0;
-            int high = array.Length;
-            while (low < high)
+            int high = array.Length - 1;
+            while (low <= high)
             {
                 int mid = (low + high) / 2;
                 int guess = array[mid];
                 if (guess == num)
                 {
-                    return mid + 1;
+                    return guess;
                 }
                 else if (guess > num)
                 {
