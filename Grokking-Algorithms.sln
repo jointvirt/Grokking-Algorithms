@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter-1", "Grokking-Algor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console-Start", "Grokking-Algorithms\Console-Start\Console-Start.csproj", "{1FC2A619-4A5A-4EE7-8A1B-8868D12228D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrokkingAlgorithms.Tests", "Grokking-Algorithms.Tests\GrokkingAlgorithms.Tests\GrokkingAlgorithms.Tests.csproj", "{1377F387-4A57-4786-8C57-684B07185504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrokkingAlgorithms.Tests", "Grokking-Algorithms.Tests\GrokkingAlgorithms.Tests\GrokkingAlgorithms.Tests.csproj", "{1377F387-4A57-4786-8C57-684B07185504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter-2", "Grokking-Algorithms\Chapter-2\Chapter-2.csproj", "{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,18 @@ Global
 		{1377F387-4A57-4786-8C57-684B07185504}.Release|x64.Build.0 = Release|Any CPU
 		{1377F387-4A57-4786-8C57-684B07185504}.Release|x86.ActiveCfg = Release|Any CPU
 		{1377F387-4A57-4786-8C57-684B07185504}.Release|x86.Build.0 = Release|Any CPU
+		{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}.Debug|x64.Build.0 = Debug|Any CPU
+		{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}.Debug|x86.Build.0 = Debug|Any CPU
+		{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}.Release|x64.ActiveCfg = Release|Any CPU
+		{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}.Release|x64.Build.0 = Release|Any CPU
+		{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}.Release|x86.ActiveCfg = Release|Any CPU
+		{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

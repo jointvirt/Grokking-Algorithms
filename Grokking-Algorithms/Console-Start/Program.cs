@@ -41,6 +41,15 @@ namespace Grokking_Algorithms
             stopwatch.Reset();
 
             #endregion
+
+            #region
+
+            stopwatch.Start();
+            stopwatch.Stop();
+            Console.WriteLine($"Время выполнения сортировки выбором: {stopwatch.Elapsed}"); //Совет: запустите несколько раз и примерно найдите среднее.
+            stopwatch.Reset();
+
+            #endregion
         }
     }
 }
