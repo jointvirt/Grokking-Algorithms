@@ -10,13 +10,15 @@ namespace GrokkingAlgorithms.Tests
         private static readonly object[] _sourceLists =
         {
             new object[] {new List<int> {2, 3, 1}, new int[] { 1, 2, 3 } },   
-            new object[] {new List<int> {5, 6, 1, 4, 3, 2, 7, 9, 8}, new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 } } 
+            new object[] {new List<int> {5, 6, 1, 4, 3, 2, 7, 9, 8}, new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 } }
         };
 
-        [Test, TestCaseSource("_sourceLists")]
-        public int[] SelectionSort_SelectionSorting_ReturnsExceptedArray(List<int> list)
+        [Test, TestCaseSource(nameof(_sourceLists))]
+        public void SelectionSort_SelectionSorting_ReturnsExceptedArray(List<int> list, int[] expected)
         {
-            return selectionSort.SelectionSorting(list);
+            var exp = selectionSort.SelectionSorting(list);
+
+            Assert.AreEqual(expected, exp);
         }
     }
 }
