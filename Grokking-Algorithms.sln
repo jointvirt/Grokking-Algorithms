@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter-2", "Grokking-Algor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter-3", "Grokking-Algorithms\Chapter-3\Chapter-3.csproj", "{4BCD41EA-0EC5-44C7-8F69-FAD15A7E450A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter-4", "Grokking-Algorithms\Chapter-4\Chapter-4.csproj", "{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{4BCD41EA-0EC5-44C7-8F69-FAD15A7E450A}.Release|x64.Build.0 = Release|Any CPU
 		{4BCD41EA-0EC5-44C7-8F69-FAD15A7E450A}.Release|x86.ActiveCfg = Release|Any CPU
 		{4BCD41EA-0EC5-44C7-8F69-FAD15A7E450A}.Release|x86.Build.0 = Release|Any CPU
+		{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}.Debug|x64.Build.0 = Debug|Any CPU
+		{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}.Debug|x86.Build.0 = Debug|Any CPU
+		{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}.Release|x64.ActiveCfg = Release|Any CPU
+		{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}.Release|x64.Build.0 = Release|Any CPU
+		{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}.Release|x86.ActiveCfg = Release|Any CPU
+		{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
