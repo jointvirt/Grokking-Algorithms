@@ -3,6 +3,7 @@ using Chapter_2;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using Chapter_3;
 
 namespace Grokking_Algorithms
 {
@@ -44,7 +45,7 @@ namespace Grokking_Algorithms
 
             #endregion
 
-            #region
+            #region Сортировка выбором.
 
             stopwatch.Start();
             SelectionSort selectionSort = new SelectionSort();
@@ -52,6 +53,16 @@ namespace Grokking_Algorithms
             stopwatch.Stop();
             Console.WriteLine($"Время выполнения сортировки выбором: {stopwatch.Elapsed}"); //Совет: запустите несколько раз и примерно найдите среднее.
             stopwatch.Reset();
+
+            #endregion
+
+            #region Рекурсия.
+
+            stopwatch.Start();
+            Rekursion rekursion = new Rekursion();
+            Console.WriteLine(rekursion.Factorial(5));
+            stopwatch.Stop();
+            Console.WriteLine($"Время выполнения рекурсии: {stopwatch.Elapsed}"); //Совет: запустите несколько раз и примерно найдите среднее.
 
             #endregion
         }
