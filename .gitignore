@@ -348,3 +348,13 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+.idea/.idea.Grokking-Algorithms/.idea/.name
+.idea/.idea.Grokking-Algorithms/.idea/codeStyles/codeStyleConfig.xml
+.idea/.idea.Grokking-Algorithms/.idea/contentModel.xml
+.idea/.idea.Grokking-Algorithms/.idea/encodings.xml
+.idea/.idea.Grokking-Algorithms/.idea/indexLayout.xml
+.idea/.idea.Grokking-Algorithms/.idea/modules.xml
+.idea/.idea.Grokking-Algorithms/.idea/projectSettingsUpdater.xml
+.idea/.idea.Grokking-Algorithms/.idea/vcs.xml
+.idea/.idea.Grokking-Algorithms/.idea/workspace.xml
+.idea/.idea.Grokking-Algorithms/riderModule.iml
