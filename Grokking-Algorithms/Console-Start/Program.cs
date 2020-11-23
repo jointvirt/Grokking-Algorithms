@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using Chapter_3;
+using Chapter_4;
 
 namespace Grokking_Algorithms
 {
@@ -18,7 +19,8 @@ namespace Grokking_Algorithms
                          26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
                          51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75,
                          76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100};
-            var smallArr = new List<int>() { 4, 3, 8, 1, 9, 5, 2, 6, 7 };
+            var smallList = new List<int>() { 4, 3, 8, 1, 9, 5, 2, 6, 7 };
+            var smallArr = new int[] { 4, 3, 8, 1, 9, 5, 2, 6, 7 };
             #endregion
 
 
@@ -49,7 +51,7 @@ namespace Grokking_Algorithms
 
             stopwatch.Start();
             SelectionSort selectionSort = new SelectionSort();
-            Console.WriteLine(string.Join(", ", selectionSort.SelectionSorting(smallArr)));
+            Console.WriteLine(string.Join(", ", selectionSort.SelectionSorting(smallList)));
             stopwatch.Stop();
             Console.WriteLine($"Время выполнения сортировки выбором: {stopwatch.Elapsed}"); //Совет: запустите несколько раз и примерно найдите среднее.
             stopwatch.Reset();
@@ -63,6 +65,16 @@ namespace Grokking_Algorithms
             Console.WriteLine(rekursion.Factorial(5));
             stopwatch.Stop();
             Console.WriteLine($"Время выполнения рекурсии: {stopwatch.Elapsed}"); //Совет: запустите несколько раз и примерно найдите среднее.
+
+            #endregion
+
+            #region Быстрая сортировка.
+
+            stopwatch.Start();
+            QuickSort quickSort = new QuickSort();
+            Console.WriteLine(string.Join(", ", quickSort.QuickSorting(smallArr)));
+            stopwatch.Stop();
+            Console.WriteLine($" Время выполнения быстрой сортировки: {stopwatch.Elapsed}"); //Совет: запустите несколько раз и примерно найдите среднее.
 
             #endregion
         }
