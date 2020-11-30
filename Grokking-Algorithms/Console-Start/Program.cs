@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using Chapter_3;
 using Chapter_4;
+using Chapter_5;
 
 namespace Grokking_Algorithms
 {
@@ -74,8 +75,19 @@ namespace Grokking_Algorithms
             QuickSort quickSort = new QuickSort();
             Console.WriteLine(string.Join(", ", quickSort.QuickSorting(smallArr)));
             stopwatch.Stop();
-            Console.WriteLine($" Время выполнения быстрой сортировки: {stopwatch.Elapsed}"); //Совет: запустите несколько раз и примерно найдите среднее.
+            Console.WriteLine($"Время выполнения быстрой сортировки: {stopwatch.Elapsed}"); //Совет: запустите несколько раз и примерно найдите среднее.
 
+            #endregion
+
+            #region Хеш-таблицы
+
+            stopwatch.Start();
+            HashTables hashTables = new HashTables();
+            Console.WriteLine(hashTables.Check("Egor"));
+            Console.WriteLine(hashTables.Check("Egor"));
+            stopwatch.Stop();
+            Console.WriteLine($"Время выполнения заполнения хеш таблицы: {stopwatch.Elapsed}");
+            
             #endregion
         }
     }
