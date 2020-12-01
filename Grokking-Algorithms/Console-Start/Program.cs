@@ -95,11 +95,19 @@ namespace Grokking_Algorithms
 
             stopwatch.Start();
             BreadthFirstSearch breadthFirstSearch = new BreadthFirstSearch();
-            breadthFirstSearch._graph.Add("All", new[] {"Roma", "Egor"});
-            breadthFirstSearch._graph.Add("Roma", Array.Empty<string>());
-            breadthFirstSearch._graph.Add("Egor", Array.Empty<string>());
-            Console.WriteLine(breadthFirstSearch.Search("All"));
+            
+            breadthFirstSearch._graph.Add("you", new[] { "alice", "bob", "claire" });
+            breadthFirstSearch._graph.Add("bob", new[] { "anuj", "peggy" });
+            breadthFirstSearch._graph.Add("alice", new[] { "peggy" });
+            breadthFirstSearch._graph.Add("claire", new[] { "thom", "jonny" });
+            breadthFirstSearch._graph.Add("anuj", Array.Empty<string>());
+            breadthFirstSearch._graph.Add("peggy", Array.Empty<string>());
+            breadthFirstSearch._graph.Add("thom", Array.Empty<string>());
+            breadthFirstSearch._graph.Add("jonny", Array.Empty<string>());
+            Console.WriteLine(breadthFirstSearch.Search("you"));
+            
             stopwatch.Stop();
+            
             Console.WriteLine($"{stopwatch.Elapsed}");
 
             #endregion
