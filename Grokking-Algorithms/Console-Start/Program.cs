@@ -6,6 +6,7 @@ using System.Diagnostics;
 using Chapter_3;
 using Chapter_4;
 using Chapter_5;
+using Chapter_6;
 
 namespace Grokking_Algorithms
 {
@@ -88,6 +89,19 @@ namespace Grokking_Algorithms
             stopwatch.Stop();
             Console.WriteLine($"Время выполнения заполнения хеш таблицы: {stopwatch.Elapsed}");
             
+            #endregion
+
+            #region Поиск в ширину
+
+            stopwatch.Start();
+            BreadthFirstSearch breadthFirstSearch = new BreadthFirstSearch();
+            breadthFirstSearch._graph.Add("All", new[] {"Roma", "Egor"});
+            breadthFirstSearch._graph.Add("Roma", Array.Empty<string>());
+            breadthFirstSearch._graph.Add("Egor", Array.Empty<string>());
+            Console.WriteLine(breadthFirstSearch.Search("All"));
+            stopwatch.Stop();
+            Console.WriteLine($"{stopwatch.Elapsed}");
+
             #endregion
         }
     }
