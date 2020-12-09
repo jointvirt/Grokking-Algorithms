@@ -11,13 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrokkingAlgorithms.Tests", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter-2", "Grokking-Algorithms\Chapter-2\Chapter-2.csproj", "{45EF8BEE-B0E2-4ED4-9F7C-895D2DF42566}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter-3", "Grokking-Algorithms\Chapter-3\Chapter-3.csproj", "{4BCD41EA-0EC5-44C7-8F69-FAD15A7E450A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter-3", "Grokking-Algorithms\Chapter-3\Chapter-3.csproj", "{4BCD41EA-0EC5-44C7-8F69-FAD15A7E450A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter-4", "Grokking-Algorithms\Chapter-4\Chapter-4.csproj", "{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter-4", "Grokking-Algorithms\Chapter-4\Chapter-4.csproj", "{BF28D2B1-8B13-49A9-AC83-A8C02701AFC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter-5", "Grokking-Algorithms\Chapter-5\Chapter-5.csproj", "{39BDC538-ED04-4E91-8FA1-A364A4E8C538}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter-5", "Grokking-Algorithms\Chapter-5\Chapter-5.csproj", "{39BDC538-ED04-4E91-8FA1-A364A4E8C538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter-6", "Grokking-Algorithms\Chapter-6\Chapter-6.csproj", "{1CAFFCC8-B3A9-4AD6-B50A-191CE07DE4A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter-6", "Grokking-Algorithms\Chapter-6\Chapter-6.csproj", "{1CAFFCC8-B3A9-4AD6-B50A-191CE07DE4A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter-7", "Grokking-Algorithms\Chapter-7\Chapter-7.csproj", "{5E361E00-DF7E-4CE8-A19E-5A2AF5150026}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +127,18 @@ Global
 		{1CAFFCC8-B3A9-4AD6-B50A-191CE07DE4A9}.Release|x64.Build.0 = Release|Any CPU
 		{1CAFFCC8-B3A9-4AD6-B50A-191CE07DE4A9}.Release|x86.ActiveCfg = Release|Any CPU
 		{1CAFFCC8-B3A9-4AD6-B50A-191CE07DE4A9}.Release|x86.Build.0 = Release|Any CPU
+		{5E361E00-DF7E-4CE8-A19E-5A2AF5150026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E361E00-DF7E-4CE8-A19E-5A2AF5150026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E361E00-DF7E-4CE8-A19E-5A2AF5150026}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5E361E00-DF7E-4CE8-A19E-5A2AF5150026}.Debug|x64.Build.0 = Debug|Any CPU
+		{5E361E00-DF7E-4CE8-A19E-5A2AF5150026}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E361E00-DF7E-4CE8-A19E-5A2AF5150026}.Debug|x86.Build.0 = Debug|Any CPU
+		{5E361E00-DF7E-4CE8-A19E-5A2AF5150026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E361E00-DF7E-4CE8-A19E-5A2AF5150026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E361E00-DF7E-4CE8-A19E-5A2AF5150026}.Release|x64.ActiveCfg = Release|Any CPU
+		{5E361E00-DF7E-4CE8-A19E-5A2AF5150026}.Release|x64.Build.0 = Release|Any CPU
+		{5E361E00-DF7E-4CE8-A19E-5A2AF5150026}.Release|x86.ActiveCfg = Release|Any CPU
+		{5E361E00-DF7E-4CE8-A19E-5A2AF5150026}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
