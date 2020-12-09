@@ -19,6 +19,7 @@
     <ProjectReference Include="..\..\Grokking-Algorithms\Chapter-4\Chapter-4.csproj" />
     <ProjectReference Include="..\..\Grokking-Algorithms\Chapter-5\Chapter-5.csproj" />
     <ProjectReference Include="..\..\Grokking-Algorithms\Chapter-6\Chapter-6.csproj" />
+    <ProjectReference Include="..\..\Grokking-Algorithms\Chapter-7\Chapter-7.csproj" />
   </ItemGroup>
 
 </Project>
