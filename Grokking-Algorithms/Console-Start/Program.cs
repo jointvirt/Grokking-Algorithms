@@ -7,6 +7,7 @@ using Chapter_3;
 using Chapter_4;
 using Chapter_5;
 using Chapter_6;
+using Chapter_7;
 
 namespace Grokking_Algorithms
 {
@@ -108,8 +109,19 @@ namespace Grokking_Algorithms
             
             stopwatch.Stop();
             
-            Console.WriteLine($"{stopwatch.Elapsed}");
+            Console.WriteLine($"Время выполнения: {stopwatch.Elapsed}");
 
+            #endregion
+
+            #region Алгоритм Дейкстры
+
+            stopwatch.Start();
+
+            FindLowest findLowest = new FindLowest();
+            Console.WriteLine(findLowest.Find());
+            stopwatch.Stop();
+
+            Console.WriteLine($"Время выполнения: {stopwatch.Elapsed}");
             #endregion
         }
     }
